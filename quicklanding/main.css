@@ -1,0 +1,1270 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.rel{
+    position: relative;
+}
+nav ul li{ 
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    transform: scale(1, 1.04);
+
+}
+nav{
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+.logo{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    height: 250px;
+    background-image: url(img/Logo\ mark-08.svg);
+    background-size: cover;
+    transition: 0.5s ;
+}
+.logo:hover{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    height: 250px;
+    background-image: url(img/WordType-05.svg);
+    background-size: cover;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+      transform: scale(1, 1.10);
+    color:black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 700;
+    transform: scale(1, 1.04);
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+nav ul li .links{
+    margin-left: 120px; 
+    color: black;
+}
+
+.heading2{
+    font-size: 23px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.heading1{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 800; 
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.system{
+    position: absolute;
+    display: inline;
+    font-size: 80px;
+    font-weight: 800;
+    left: 50%;
+    top: 52%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.mockup{
+        position: absolute;
+        left: 53%;
+        top: 85%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 180vh;
+        height: 120vh;
+        background-image: url(img/mockup.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+
+.title{
+    opacity: 0;
+    transition: 1 s ease-in-out;
+}
+.title2{
+    opacity: 100%;
+}
+
+.text-white{
+   
+    color: white;
+}
+.tblock{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.tblock2{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: 44%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: right;
+    overflow: hidden;
+}
+.mobmock{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 1200px;
+    width: 1200px;
+    background-image: url(img/mobilemock.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.mobmock2{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 1200px;
+    width: 1200px;
+    background-image: url(img/mobilemock.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    opacity: 30%;
+    visibility: hidden;
+}
+.heading3{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 800; 
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.mobmock3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 700px;
+    width: 700px;
+    background-image: url(img/Gif-1.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.scan-head{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 800; 
+    left: 20%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.number1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 340px;
+    font-weight: 800; 
+    left: 90%;
+    top: 82.5%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 30%;
+
+}
+.mobmock4{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 700px;
+    width: 700px;
+    background-image: url(img/Gif-2.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.order-head{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 800; 
+    left: 20%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+
+}
+.number2{
+    position: absolute;
+    font-size: 340px;
+    font-weight: 800; 
+    left: 90%;
+    top: 84%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 30%;
+    color: white;
+}
+.mobmock5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 700px;
+    width: 700px;
+    background-image: url(img/Gif-3.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.feast-head{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 800; 
+    left: 20%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.number3{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 340px;
+    font-weight: 800; 
+    left: 90%;
+    top: 65%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 30%;
+}
+.benefits-head{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700; 
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.benefits1{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 200px;
+    width: 200px;
+    background-image: url(img/Untitled-1-01.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}.benefits2{
+    position: absolute;
+    top: 55%;
+    left: 37.5%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 200px;
+    width: 200px;
+    background-image: url(img/Untitled-1-02.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.benefits3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 200px;
+    width: 200px;
+    background-image: url(img/Untitled-1-03.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.benefits4{
+    position: absolute;
+    top: 55%;
+    left: 62.5%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 200px;
+    width: 200px;
+    background-image: url(img/Untitled-1-04.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.benefits5{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 200px;
+    width: 200px;
+    background-image: url(img/Untitled-1-05.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1256px) {
+    
+    .mockup{
+        width: 140vh;
+        height: 70vh; 
+        left: 78%;
+}
+.logo{
+    top: 15%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+}
+.heading2{
+    font-size: 35px;
+    font-weight: 700;
+    left: 79%;
+    top: 37%;
+    width: 100%;
+}
+.heading1{
+    font-size: 95px;
+    font-weight: 800; 
+    left: 65%;
+    top: 43%;
+    width: 100%;
+}
+.system{
+    font-size: 62px;
+    font-weight: 800;
+    left: 82%;
+    top: 50%;
+    width: 100%;
+}
+.tblock{
+    top: 0%;
+    left: 60%;
+    width: 100%;
+    line-height: 150%;
+    font-size: large;
+}
+.tblock2{
+    width: 100%;
+    top: 79%;
+    left: 45%;
+    
+}
+.mobmock{
+    top: 60%;
+    left: 50%;
+    height: 1700px;
+    width: 1700px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 50px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 58%;
+    left: 50%;
+    height: 1100px;
+    width: 1100px;
+}
+.scan-head{
+    font-size: 130px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number1{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 89%;
+}
+.mobmock4{
+    top: 58%;
+    left: 50%;
+    height: 1100px;
+    width: 1100px;
+}
+.order-head{
+    font-size: 120px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number2{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock5{
+    top: 45%;
+    left: 50%;
+    height: 1100px;
+    width: 1100px;
+}
+.feast-head{
+    font-size: 120px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number3{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 65%;
+}
+.benefits-head{
+    top: -25%;
+    font-size: 40px;
+}
+
+.benefits1{
+    top: 22%;
+    left: 20%;
+    height: 300px;
+    width: 300px;
+}.benefits2{
+    top: 22%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+}
+.benefits3{
+    top: 22%;
+    left: 80%;
+    height: 300px;
+    width: 300px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 300px;
+    width: 300px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 300px;
+    width: 300px;
+}
+}
+
+@media screen and (max-width: 769px) {
+    
+    .mockup{
+        width: 120vh;
+        height: 50vh; 
+        left: 83.5%;
+}
+.logo{
+    top: 12%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+}
+.heading2{
+    font-size: 30px;
+    font-weight: 700;
+    left: 75%;
+    top: 36%;
+    width: 100%;
+}
+.heading1{
+    font-size: 76px;
+    font-weight: 800; 
+    left: 63%;
+    top: 43%;
+    width: 100%;
+}
+.system{
+    font-size: 62px;
+    font-weight: 800;
+    left: 76%;
+    top: 51%;
+    width: 100%;
+}
+.tblock{
+    top: 0%;
+    left: 60%;
+    width: 100%;
+    line-height: 150%;
+}
+.tblock2{
+    width: 100%;
+    top: 79%;
+    left: 45%;
+    
+}
+.mobmock{
+    top: 60%;
+    left: 50%;
+    height: 1200px;
+    width: 1200px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 50px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 58%;
+    left: 50%;
+    height: 900px;
+    width: 900px;
+}
+.scan-head{
+    font-size: 110px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number1{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 87%;
+}
+.mobmock4{
+    top: 58%;
+    left: 50%;
+    height: 900px;
+    width: 900px;
+}
+.order-head{
+    font-size: 100px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number2{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 87%;
+}
+.mobmock5{
+    top: 45%;
+    left: 50%;
+    height: 900px;
+    width: 900px;
+}
+.feast-head{
+    font-size: 100px;
+    font-weight: 800; 
+    left: 51%;
+    top: 11%;
+}
+.number3{
+    font-size: 380px;
+    font-weight: 800; 
+    left: 90%;
+    top: 65%;
+}
+.benefits-head{
+    top: -15%;
+    font-size: 40px;
+}
+
+.benefits1{
+    top: 26%;
+    left: 20%;
+    height: 200px;
+    width: 200px;
+}.benefits2{
+    top: 26%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+}
+.benefits3{
+    top: 26%;
+    left: 80%;
+    height: 200px;
+    width: 200px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 200px;
+    width: 200px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 200px;
+    width: 200px;
+}
+}
+
+@media screen and (max-width: 415px) {
+    .mockup{
+        width: 100vh;
+        height: 40vh; 
+        left: 90%;
+}
+.logo{
+    top: 18%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+}
+.heading2{
+    font-size: 18px;
+    font-weight: 700;
+    left: 73%;
+    top: 40%;
+    width: 100%;
+}
+.heading1{
+    font-size: 43px;
+    font-weight: 800; 
+    left: 60%;
+    top: 46%;
+    width: 100%;
+}
+.system{
+    font-size: 32px;
+    font-weight: 800;
+    left: 75%;
+    top: 52%;
+    width: 100%;
+}
+
+.tblock{
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.tblock2{
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+}
+.mobmock{
+    top: 64%;
+    left: 50%;
+    height: 800px;
+    width: 800px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 30px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 57%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.scan-head{
+    font-size: 70px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number1{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock4{
+    top: 55%;
+    left: 50%;
+    height: 520px;
+    width: 520px;
+}
+.order-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 50%;
+    top: 11%;
+}
+.number2{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock5{
+    top: 43%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.feast-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number3{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 87%;
+    top: 69.5%;
+}
+.benefits-head{
+    font-size: 30px;
+    font-weight: 700; 
+    left: 50%;
+    top: -7%;
+}
+.benefits1{
+    top: 26%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+}.benefits2{
+    top: 26%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+}
+.benefits3{
+    top: 26%;
+    left: 80%;
+    height: 150px;
+    width: 150px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 150px;
+    width: 150px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 150px;
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 376px) {
+    .mockup{
+        width: 110vh;
+        height: 45vh; 
+        left: 92%;
+}
+.logo{
+    top: 18%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+}
+.heading2{
+    font-size: 18px;
+    font-weight: 700;
+    left: 71%;
+    top: 38%;
+    width: 100%;
+}
+.heading1{
+    font-size: 39px;
+    font-weight: 800; 
+    left: 60%;
+    top: 44%;
+    width: 100%;
+}
+.system{
+    font-size: 32px;
+    font-weight: 800;
+    left: 74%;
+    top: 50%;
+    width: 100%;
+}
+
+.tblock{
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.tblock2{
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+}
+.mobmock{
+    top: 64%;
+    left: 50%;
+    height: 800px;
+    width: 800px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 30px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 57%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.scan-head{
+    font-size: 70px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number1{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock4{
+    top: 55%;
+    left: 50%;
+    height: 520px;
+    width: 520px;
+}
+.order-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 50%;
+    top: 11%;
+}
+.number2{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock5{
+    top: 43%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.feast-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number3{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 87%;
+    top: 69.5%;
+}
+.benefits-head{
+    font-size: 30px;
+    font-weight: 700; 
+    left: 50%;
+    top: -5%;
+}
+.benefits1{
+    top: 26%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+}.benefits2{
+    top: 26%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+}
+.benefits3{
+    top: 26%;
+    left: 80%;
+    height: 150px;
+    width: 150px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 150px;
+    width: 150px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 150px;
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 361px) {
+    .mockup{
+        width: 120vh;
+        height: 50vh; 
+        left: 94%;
+}
+.logo{
+    top: 18%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+}
+.heading2{
+    font-size: 16px;
+    font-weight: 700;
+    left: 72%;
+    top: 38%;
+    width: 100%;
+}
+.heading1{
+    font-size: 38px;
+    font-weight: 800; 
+    left: 60%;
+    top: 44%;
+    width: 100%;
+}
+.system{
+    font-size: 32px;
+    font-weight: 800;
+    left: 74%;
+    top: 50%;
+    width: 100%;
+}
+
+.tblock{
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.tblock2{
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+}
+.mobmock{
+    top: 64%;
+    left: 50%;
+    height: 800px;
+    width: 800px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 30px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 57%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.scan-head{
+    font-size: 70px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number1{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock4{
+    top: 55%;
+    left: 50%;
+    height: 520px;
+    width: 520px;
+}
+.order-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 50%;
+    top: 11%;
+}
+.number2{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 90%;
+    top: 90%;
+}
+.mobmock5{
+    top: 43%;
+    left: 50%;
+    height: 550px;
+    width: 550px;
+}
+.feast-head{
+    font-size: 65px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number3{
+    font-size: 220px;
+    font-weight: 800; 
+    left: 87%;
+    top: 69.5%;
+}
+.benefits-head{
+    font-size: 30px;
+    font-weight: 700; 
+    left: 50%;
+    top: -5%;
+}
+.benefits1{
+    top: 26%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+}.benefits2{
+    top: 26%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+}
+.benefits3{
+    top: 26%;
+    left: 80%;
+    height: 150px;
+    width: 150px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 150px;
+    width: 150px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 150px;
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 321px) {
+    
+    .mockup{
+        width: 100vh;
+        height: 40vh; 
+        left: 90%;
+}
+.logo{
+    top: 12%;
+    left: 51%;
+    width: 280px;
+    height: 280px;
+}
+.heading2{
+    font-size: 16px;
+    font-weight: 700;
+    left: 70%;
+    top: 37%;
+    width: 100%;
+}
+.heading1{
+    font-size: 38px;
+    font-weight: 800; 
+    left: 55%;
+    top: 43%;
+    width: 100%;
+}
+.system{
+    font-size: 32px;
+    font-weight: 800;
+    left: 72%;
+    top: 50%;
+    width: 100%;
+}
+.tblock{
+
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+.tblock2{
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+}
+.mobmock{
+    top: 64%;
+    left: 50%;
+    height: 700px;
+    width: 700px;
+}
+.mobmock2{
+    top: 50%;
+    left: 50%;
+    height:800px;
+    width:800px;
+    visibility: hidden;
+}
+.heading3{
+    font-size: 30px;
+    font-weight: 800; 
+    left: 50%;
+    top: 30%;
+    text-align: center;
+}
+.mobmock3{
+    top: 48%;
+    left: 50%;
+    height: 420px;
+    width: 420px;
+}
+.scan-head{
+    font-size: 55px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number1{
+    font-size: 300px;
+    font-weight: 800; 
+    left: 90%;
+    top: 80%;
+
+}
+.mobmock4{
+    top: 55%;
+    left: 50%;
+    height: 480px;
+    width: 480px;
+}
+.order-head{
+    font-size: 60px;
+    font-weight: 800; 
+    left: 50%;
+    top: 11%;
+}
+.number2{
+    font-size: 180px;
+    font-weight: 800; 
+    left: 90%;
+    top: 92%;
+}
+.mobmock5{
+    top: 45%;
+    left: 50%;
+    height: 490px;
+    width: 490px;
+}
+.feast-head{
+    font-size: 60px;
+    font-weight: 800; 
+    left: 52%;
+    top: 10%;
+}
+.number3{
+    font-size: 200px;
+    font-weight: 800; 
+    left: 86%;
+    top: 72%;
+}
+.benefits1{
+    top: 26%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+}.benefits2{
+    top: 26%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+}
+.benefits3{
+    top: 26%;
+    left: 80%;
+    height: 150px;
+    width: 150px;
+}
+.benefits4{
+    top: 73%;
+    left: 33%;
+    height: 150px;
+    width: 150px;
+}
+.benefits5{
+    top: 73%;
+    left: 70%;
+    height: 150px;
+    width: 150px;
+}
+}
