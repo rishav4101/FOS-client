@@ -20,6 +20,7 @@ maximum-scale=1.0, user-scalable=no"
       crossorigin="anonymous"
     ></script>
     <link rel="icon" href="img/Logo mark-07.png" type="image/x-icon" />
+    
   </head>
 
   <body>
@@ -38,7 +39,7 @@ maximum-scale=1.0, user-scalable=no"
     </div>
 
     <div class="hero">
-      <div class="hero-inner" >
+      <div class="hero-inner">
         <div class="sec2">
           <div class="tblock text-white">
             <span
@@ -46,7 +47,7 @@ maximum-scale=1.0, user-scalable=no"
               >About</span
             >
             <div>
-              <span style="font-size: 2vmin">
+              <span style="font-size: 2vmin" >
                 Quick order is belief of making life<br />easier with the
                 simplest yet powerful<br />
                 technology,QR code scanning .<br />Quick order understands
@@ -59,7 +60,8 @@ maximum-scale=1.0, user-scalable=no"
           <div>
             <span
               class="tblock2 text-white"
-              style="font-size: 2vmin;"
+              style="font-size: 2vmin"
+              
             >
               Quick Order also spreads its<br />
               services helping customers to <br />
@@ -125,7 +127,14 @@ maximum-scale=1.0, user-scalable=no"
       <div class="benefits4"></div>
       <div class="benefits5"></div>
     </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="jquery-2.1.1.js"></script>
     <script src="main.js"></script>
+    <script>
+      ScrollReveal({ reset: true });
+      ScrollReveal().reveal('.tblock', { delay: 100, duration: 900, distance: '50px', easing: 'cubic-bezier(0.5, 0, 0, 1)', scale: 0.95 });
+      ScrollReveal().reveal('.tblock2', { delay: 200, duration: 900, distance: '50px', easing: 'cubic-bezier(0.5, 0, 0, 1)', scale: 0.95 });
+    </script>
   </body>
 </html>

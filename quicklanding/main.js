@@ -1,21 +1,30 @@
 var $window = $(window),
-    $sec2 = $('.tblock'),
-    $sec3 = $('.mobmock'),
-    $sec4 = $('.tblock2'),
+    $s2 = $('.tblock'),
+    $s3 = $('.mobmock'),
+    $s4 = $('.tblock2'),
+    $sec3 = $('.sec3'),
+    sec3Top = $('.sec3').offset().top,
     elTop = $('.sec2').offset().top;
     console.log(elTop);
 
 $window.scroll(function(e) {
     
     if ($window.scrollTop() > elTop ){ 
-        $sec2.css({'position': 'fixed'}); 
-        $sec3.css({'position': 'fixed'});
-        $sec4.css({'position': 'fixed'});
+        $s2.css({'position': 'fixed'}); 
+        $s3.css({'position': 'fixed'});
+        $s4.css({'position': 'fixed'});
     }
     if ($window.scrollTop() < elTop ){ 
-        $sec2.css({'position': 'absolute'}); 
-        $sec3.css({'position': 'absolute'}); 
-        $sec4.css({'position': 'absolute'}); 
+        $s2.css({'position': 'absolute'}); 
+        $s3.css({'position': 'absolute'}); 
+        $s4.css({'position': 'absolute'}); 
     }
+    // if ($window.scrollTop() > elTop){
+    //     $('html, body').animate({scrollTop: sec3Top}, 0.01);
+    // }
+
 
 });
+
+
+// $(".sec2").scrollTop($(".sec2")[0].scrollHeight);
