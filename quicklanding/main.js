@@ -23,8 +23,14 @@ $window.scroll(function(e) {
     //     $('html, body').animate({scrollTop: sec3Top}, 0.01);
     // }
 
-
 });
 
+$(document).ready(function() { 
+
+    $("html").niceScroll();
+
+  }
+
+);
 
 // $(".sec2").scrollTop($(".sec2")[0].scrollHeight);

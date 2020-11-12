@@ -9,9 +9,14 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#002e5b; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
 .sec1{
-    height: 85vh;
+    height: 65vh;
 }
 
 .sec2{
@@ -20,35 +25,43 @@ body{
     background-color: #141414;
     position:relative;
 }
-
+.navt{
+    margin: 0;
+    font-size: 2vmin;
+    font-weight: 700; 
+}
 .logo{
-    margin: 0 auto;
-    width: 30vmin;
-    height: 30vmin;
-    background-image: url(img/Logo\ mark-08.svg);
+    margin: 0;
+    width: 8vmin;
+    height: 8vmin;
+    background-image: url(img/Logo\ mark-08.png);
     background-size: cover;
     transition: 0.5s ;
 }
 .logo:hover{
-    margin: 0 auto;
-    width: 30vmin;
-    height: 30vmin;
-    background-image: url(img/WordType-05.svg);
+    margin: 0;
+    width: 8vmin;
+    height: 8vmin;
+    background-image: url(img/WordType-05.png);
     background-size: cover;
 }
 
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 772px) {
   .logo{
-    width: 50vmin;
-    height: 50vmin;
+    width: 10vmin;
+    height: 10vmin;
 }
 .logo:hover{
-    width: 50vmin;
-    height: 50vmin;
+    width: 10vmin;
+    height: 10vmin;
 }  
+.navt {
+    font-size: 4vmin;
+}
 }
 
 .heading2{
+    padding-top: 40px;
     margin: 0 auto;
     text-align: center;
     font-size: 5vmin;
@@ -94,7 +107,7 @@ body{
 
 .tblock{
     color:#fff;
-    font-size: 1em;
+    font-size: 3vmin;
     position: absolute;
     top: 25%;
     left: 20%;
@@ -103,7 +116,7 @@ body{
 
 .tblock2{
     color:#fff;
-    font-size: 1em;
+    font-size: 3vmin;
     position: absolute;
     width: 100%;
     top: 75%;
@@ -272,7 +285,7 @@ body{
 
 .mobmock5{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     height: 80vh;
@@ -318,12 +331,12 @@ body{
     position: relative;
     margin: 0 auto;
     max-width: 1200px;
-    height:40vh;
+    height:100vh;
 }
 
 .benefits-head{
     position: absolute;
-    font-size: 30px;
+    font-size: 8vmin;
     font-weight: 700; 
     left: 50%;
     top: 10%;
@@ -423,7 +436,7 @@ a:link {
 
   @media screen and (max-width: 721px) {
     .sec5{
-        height:55vh;
+        height:100vh;
     }
     .benefits1{
         top: 40%;
