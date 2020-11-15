@@ -9,7 +9,7 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 .toggle-menu ul{display:table; width:25px;}
 .toggle-menu ul li{width:100%; height:3px; background-color:#002e5b; margin-bottom:4px;}
@@ -619,8 +619,8 @@ a:link {
 
 .imgclient{
   position: absolute;
-  top: 45%;
-  left: 50%;
+  top: -15%;
+  left: 10%;
   transform: translateX(-50%) translateY(-50%);
   width: 70vw;
   opacity: 0.5;
@@ -630,8 +630,9 @@ a:link {
 }
 .imguser{
   position: absolute;
-  top: 34%;
-  left: 58%;
+  transform-style: preserve-3d;
+  top: -20%;
+  left: 20%;
   transform: translateX(-50%) translateY(-50%);
   width: 70vw;
   opacity: 0.5;
@@ -641,6 +642,7 @@ a:link {
 }
 .txtclient{
   position: absolute;
+  transform-style: preserve-3d;
   top: 50%;
   left: 14%;
   transform: translateX(-50%) translateY(-50%);
@@ -677,6 +679,9 @@ a:link {
 }
 
 @media screen and (max-width: 821px) {
+.elem{
+    transform: none !important;
+}
 .txtclient{
     font-size: 7vmin;
   top: 15%;
@@ -688,15 +693,23 @@ a:link {
   left: 50%
 }
 .imgclient{
+    top: 20%;
+    left: 4%;
   width: 100vw;
 }
 .imguser{
+    top: 16%;
+    left: 10%;
   width: 100vw;
 }
 .txtuser:hover + .imguser{
+    top: 16%;
+    left: 10%;
   width:130vw;
 }
 .txtclient:hover + .imgclient{
+    top: 20%;
+    left: 4%;
   width:130vw;
 }
 }
