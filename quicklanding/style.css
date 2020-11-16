@@ -1416,3 +1416,82 @@ a:hover {
     width: 130vw;
   }
 }
+
+/* -------- contact ----------- */
+.contactleft{
+    text-align: left;
+    padding: 40px;
+    width:90%;
+    margin: 0 auto;
+}
+.contactright{
+    text-align: right;
+    padding: 40px;
+    width:90%;
+    margin: 0 auto;
+}
+.hello{
+    font-size: 13vmin;
+    color: #fff;
+    font-weight: 800;
+}
+.hello2{
+    font-size: 4vmin;
+    color: #fff;
+    font-weight: 500;
+}
+.hello3{
+    font-size: 2vmin;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.name{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    font-size: 2.25vmin;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+.email{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    font-size: 2.25vmin;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+.msg{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    font-size: 2.25vmin;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    resize: none;
+    height: 200px;
+}
+.send{
+    color: #fff;
+    font-size: 3.5vmin;
+    font-weight: 700;
+
+}
+.connect{
+    color:#fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+.yline{
+    background-color: #f4c603; width:30%; height: 2px;
+}
+@media screen and (max-width: 821px) {
+    .yline{
+        display: none;
+    }
+}
+

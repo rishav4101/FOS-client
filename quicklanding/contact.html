@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quickorder</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="img/Logo mark-07.png" type="image/x-icon" />
+    <style>
+      .active {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #141414">
+
+<div class="EUCnav mx-auto p-5 py-10 pb-15">
+      <nav class="md:flex flex-row md:justify-between align-center">
+        <div class="flex flex-row justify-between">
+          <div class="logo"></div>
+
+          <div
+            id="hamburgerbtn"
+            class="navt md:hidden my-auto flex flex-column items-center justify-center"
+          >
+            <div class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></div>
+
+          </div>
+        </div>
+
+        <ul class="navbar hidden md:flex md:flex-row" id="mobileMenu">
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>About</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Features</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Pricing</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Clients</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Demo</a>
+          </li>
+          <li class="md:hidden navt p-5 flex flex-column items-center justify-center">
+            <a>Support</a>
+          </li>
+        </ul>
+
+        <p
+          class="navt hidden md:p-5 md:flex md:flex-column md:items-center md:justify-center"
+          style="margin-right:80px;"
+        >
+          <a>Support</a>
+        </p>
+      </nav>
+    </div>
+
+<section class="se" style="background-color: #141414">
+     <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+     <div class="contactleft">
+         <br/>
+         <br/>
+         <div class="hello">Hello<span style="color: #f4c603">!</span></div>
+         <div class="hello2">Lets get in touch!</div>
+         <br/>
+         <br/>
+         <div class="hello3"><img src="img/Contact us icons-01.svg" style="width: 40px;"/>&nbsp; +91 996 650 0254</div>
+         <br/>
+         <div class="hello3"><img src="img/Contact us icons-02.svg" style="width: 40px;"/>&nbsp; support@qomenu.com</div>
+         <br/>
+         <div class="hello3"><img src="img/Contact us icons-03.svg" style="width: 40px;"/>&nbsp; Lets get in touch!</div>
+     </div>
+     <div class="contactright">
+        <br/>
+        <br/>
+        <input class="name" placeholder="Name"></input><br/>
+        <br/>
+        <br/>
+        <input class="email" placeholder="Email"></input><br/>
+        <br/>
+        <br/>
+        <textarea class="msg" placeholder="Message"></textarea><br/>
+          
+          <button class="send">Send<span style="color: #f4c603">.</span></button><br/>
+        <br/>
+        <br/>
+        <div class="connect">Connect with us&nbsp;&nbsp;&nbsp;<div class="yline"></div>
+        &nbsp;&nbsp;&nbsp; 
+        <img src="img/Contact us icons-04.svg" style="width: 40px;"/>&nbsp; 
+        <img src="img/Contact us icons-05.svg" style="width: 40px;"/>&nbsp; 
+        <img src="img/Contact us icons-06.svg" style="width: 40px;"/>&nbsp; 
+    </div>
+     </div>
+     </div>
+    </section>
+  <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="jquery-2.1.1.js"></script>
+    <script src="main.js"></script>
+    <script>
+      let hamburger = document.getElementById("hamburgerbtn");
+      let mobileMenu = document.getElementById("mobileMenu");
+      hamburger.addEventListener("click", function () {
+        mobileMenu.classList.toggle("active");
+      });
+    </script>
+
+  </body>
+</html>
