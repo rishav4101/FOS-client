@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quickorder</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="img/Logo mark-07.png" type="image/x-icon" />
+    <style>
+      .active {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+  
+<div class="mx-auto bg-white p-5 py-10 pb-15">
+      <nav class="md:flex flex-row md:justify-between align-center" style="background-color: #ffffff;">
+        <div class="flex flex-row justify-between">
+          <div class="logo"></div>
+
+          <div
+            id="hamburgerbtn"
+            class="navt md:hidden bg-white my-auto flex flex-column items-center justify-center"
+          >
+            <div class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></div>
+
+          </div>
+        </div>
+
+        <ul class="navbar hidden md:flex md:flex-row" id="mobileMenu" style="background-color: #ffffff;">
+          <li class="navt p-5 flex flex-column items-center justify-center" >
+            <a>About</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Features</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Pricing</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Clients</a>
+          </li>
+          <li class="navt p-5 flex flex-column items-center justify-center">
+            <a>Demo</a>
+          </li>
+          <li class="md:hidden navt p-5 flex flex-column items-center justify-center">
+            <a>Support</a>
+          </li>
+        </ul>
+
+        <p
+          class="navt hidden md:p-5 md:flex md:flex-column md:items-center md:justify-center"
+          style="margin-right:80px;"
+        >
+          <a>Support</a>
+        </p>
+      </nav>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+    <div class="servSec1" style="background-color: #ffffff">
+    <img src="img/First page-02.png" class="clientHimg"></img>
+    <div class="servHtxt">Client<span style="color: #f4c603">.</div>
+    </div>
+    </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCapStart">Orders<span style="color: #f4c603">.</span></div>
+        
+      </section>
+      </div>
+    </div>
+    
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap1">Orders<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- ongoing orders</div>
+        <div class="clientMob1"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap1">Orders<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- previous orders</div>
+        <div class="clientMob2"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap3">Pickup <br/> Orders<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- xxxxxx</div>
+        <div class="clientMob3"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap3"><div style="font-size:8vmin; margin:0; line-height:95%;">Edit/Create</div>Orders<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- xxxxxxxxx</div>
+        <div class="clientMob4"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap1">Roles<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- xxxxxxxxxxxxxx </div>
+        <div class="clientMob5"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap1" style="font-size:12vmin;">Discounts<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- xxxxxxxxxxxxxx </div>
+        <div class="clientMob6"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+        <div class="clientCap1">Taxes<span style="color: #f4c603">.</span></div>
+        <div class="clientCap2">- xxxxxxxxxxxxxx </div>
+        <div class="clientMob7"></div>
+      </section>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+      <section class="servWrapper" style="background-color: #ffffff">
+
+        <div class="clientbenefits-head">
+          <a href="#"> Benefits</a><span style="color: #f4c603">.</span>
+        </div>
+        <div class="sr2 clientbenefits1"></div>
+        <div class="sr2 clientbenefits2"></div>
+        <div class="sr2 clientbenefits3"></div>
+        <div class="sr2 clientbenefits4"></div>
+        <div class="sr3 clientbenefits5"></div>
+        <div class="sr3 clientbenefits6"></div>
+        <div class="sr3 clientbenefits7"></div>
+        <div class="sr3 clientbenefits8"></div>
+
+        <div class="clientbenefits-foot">
+          <a href="ENDUSERservices.html"> Are you a End-User?</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script src="jquery-2.1.1.js"></script>
+    <script src="main.js"></script>
+    <script>
+    ScrollReveal({ reset: true });
+      ScrollReveal().reveal(".clientbenefits-head", {
+        delay: 0,
+        duration: 900,
+        distance: "50px",
+        easing: "cubic-bezier(0.5, 0, 0, 1)",
+        scale: 0.95,
+      });
+      ScrollReveal().reveal(".sr2", {
+        delay: 200,
+        duration: 900,
+        distance: "50px",
+        easing: "cubic-bezier(0.5, 0, 0, 1)",
+        scale: 0.95,
+      });
+      ScrollReveal().reveal(".sr3", {
+        delay: 400,
+        duration: 900,
+        distance: "50px",
+        easing: "cubic-bezier(0.5, 0, 0, 1)",
+        scale: 0.95,
+      });
+      ScrollReveal().reveal(".clientbenefits-foot", {
+        delay: 600,
+        duration: 900,
+        distance: "50px",
+        easing: "cubic-bezier(0.5, 0, 0, 1)",
+        scale: 0.95,
+      });
+    </script>
+    <script>
+      let hamburger = document.getElementById("hamburgerbtn");
+
+      let mobileMenu = document.getElementById("mobileMenu");
+
+      hamburger.addEventListener("click", function () {
+        mobileMenu.classList.toggle("active");
+      });
+    </script>
+
+     
+  </body>
+</html>
