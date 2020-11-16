@@ -11,6 +11,13 @@ body {
   padding: 0px;
   scroll-behavior: smooth;
 }
+.scrol{
+    position: absolute;
+    height: 50px;
+    top: 95%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 .toggle-menu ul {
   display: table;
   width: 25px;
@@ -863,6 +870,7 @@ a:hover {
     .servbenefits-foot {
         left: 50%;
         top: 90%;
+        font-size: 5vmin;
       }
       .servmore-features{
           width:100%;
@@ -937,8 +945,8 @@ a:hover {
 
 .clientHimg{
     position: fixed;
-  top: 65%;
-  left: 47%;
+  top: 35%;
+  left: 17%;
   transform: translateX(-50%) translateY(-50%);
   width: 60vw;
   opacity: 1;
@@ -1191,9 +1199,12 @@ a:hover {
   }
 
   @media screen and (max-width: 921px) {
+    .clientbenefits-foot {
+        font-size: 4vmin;
+      }
     .clientHimg {
-      top: 60%;
-      left: 47%;
+      top: 40%;
+      left: -12%;
       transform: translateX(-50%) translateY(-50%);
       min-width: 120%;
     }
@@ -1458,13 +1469,13 @@ a:hover {
 .contactleft{
     text-align: left;
     padding: 40px;
-    width:90%;
+    width:95%;
     margin: 0 auto;
 }
 .contactright{
     text-align: right;
     padding: 40px;
-    width:90%;
+    width:95%;
     margin: 0 auto;
 }
 .hello{

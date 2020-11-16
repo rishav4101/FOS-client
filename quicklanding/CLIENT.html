@@ -32,7 +32,7 @@
 
   <body>
   
-<div class="mx-auto bg-white p-5 py-10 pb-15">
+<div class="mx-auto bg-white p-5 py-10 pb-15" style="margin-right:20px; margin-left:20px;">
       <nav class="md:flex flex-row md:justify-between align-center" style="background-color: #ffffff;">
         <div class="flex flex-row justify-between">
           <div class="logo"></div>
@@ -78,8 +78,9 @@
     <div class="hero">
       <div class="hero-inner">
     <div class="servSec1" style="background-color: #ffffff">
-    <img src="img/First page-02.png" class="clientHimg"></img>
+    <img src="img/First page-02.png" class="elem clientHimg"></img>
     <div class="servHtxt">Client<span style="color: #f4c603">.</div>
+    <img src="img/Scroll.svg" class="scrol"></div>
     </div>
     </div>
     </div>
@@ -213,6 +214,35 @@
         easing: "cubic-bezier(0.5, 0, 0, 1)",
         scale: 0.95,
       });
+    </script>
+    <script>
+      
+!(function ($doc, $win) {
+	var screenWidth = $win.screen.width / 2,
+		screenHeight = $win.screen.height / 2,
+		$elems = $doc.getElementsByClassName("elem"),
+		validPropertyPrefix = '',
+		otherProperty = 'perspective(1000px)',
+		elemStyle = $elems[0].style;
+
+	if(typeof elemStyle.webkitTransform == 'string') {
+		validPropertyPrefix = 'webkitTransform';
+	} else if (typeof elemStyle.MozTransform == 'string') {
+		validPropertyPrefix = 'MozTransform';
+	}
+
+	$doc.addEventListener('mousemove', function (e) {
+		var centroX = e.clientX - screenWidth,
+			centroY = screenHeight - (e.clientY + 13),
+			$elem
+
+		for (var i = 0; i < $elems.length; i++) {
+   			$elem = $elems[i];
+			$elem.style[validPropertyPrefix] = otherProperty + 'translateY('+ centroY*0.02 +'px) translateX('+ centroX*0.02 +'px)';
+           
+		};
+	});
+})(document, window);
     </script>
     <script>
       let hamburger = document.getElementById("hamburgerbtn");
