@@ -576,14 +576,14 @@ a:hover {
   top: 50%;
   left: 20%;
   transform: translateX(-50%) translateY(-50%);
-  font-weight: 900;
+  font-weight: 800;
 }
 .servCap2 {
   position: fixed;
   color: #000;
   font-size: 5vmin;
   top: 70%;
-  left: 15%;
+  left: 14%;
   transform: translateX(-50%) translateY(-50%);
   font-weight: 600;
 }
@@ -1496,6 +1496,7 @@ a:hover {
     align-items: center;
 }
 .name{
+    margin-top: 40px;
     width: 100%;
     background-color: rgba(0,0,0,0);
     font-size: 2.25vmin;
@@ -1536,10 +1537,39 @@ a:hover {
 }
 .yline{
     background-color: #f4c603; width:30%; height: 2px;
+    margin: auto 5px;
 }
+
 @media screen and (max-width: 821px) {
     .yline{
         display: none;
+        
+    }
+    .connect{
+        text-align: center;
+        color:#fff;
+        display: block;
+        justify-content: flex-end;
+        align-items: center;
+        font-weight: 500;
+    }
+    .flex2{
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
     }
 }
-
+@media screen and (min-width: 822px) {
+    .contactleft{
+        text-align: left;
+        padding: 40px;
+        width:80%;
+        margin: 0 auto;
+    }
+    .contactright{
+        text-align: right;
+        padding: 40px;
+        width:80%;
+        margin: 0 auto;
+    }
+}
