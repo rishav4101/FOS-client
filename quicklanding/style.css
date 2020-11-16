@@ -522,15 +522,16 @@ a:hover {
     text-align: center;
     transform: translateX(-50%) translateY(-50%);
   }
-/* --------- services (end user) ---------------- */
+
+/* --------- services (end user) ----------- */
 .servSec1 {
   height: 80vh;
   position: relative;
 }
 .servHimg {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: -3%;
+  left: 8%;
   transform: translateX(-50%) translateY(-50%);
   width: 80vw;
   opacity: 1;
@@ -639,19 +640,26 @@ a:hover {
   background-repeat: no-repeat;
   z-index: 2;
 }
+@media screen and (min-width: 922px) {
+    .servhid{
+        display: none;
+    }
+}
 @media screen and (max-width: 921px) {
   .servHtxt {
-    font-size: 10vmin;
+      width:100%;
+      text-align: center;
+    font-size: 13vmin;
     font-weight: 700;
-    top: 33%;
+    top: 27%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
   .servHimg {
-    top: 60%;
-    left: 50%;
+    top: 0%;
+    left: -65%;
     transform: translateX(-50%) translateY(-50%);
-    min-width: 200%;
+    min-width: 250%;
   }
   .servCapStart {
     font-size: 9vmin;
@@ -776,10 +784,10 @@ a:hover {
   .servbenefits-foot {
     position: absolute;
     text-decoration: underline;
-    font-size: 4vmin;
+    font-size: 3vmin;
     font-weight: 700;
     left: 50%;
-    top: 80%;
+    top: 85%;
     transform: translateX(-50%) translateY(-50%);
   }
   .servbenefits1 {
@@ -849,63 +857,80 @@ a:hover {
   }
   
   @media screen and (max-width: 921px) {
+      .servphn{
+          display:none;
+      }
     .servbenefits-foot {
         left: 50%;
         top: 90%;
       }
+      .servmore-features{
+          width:100%;
+          text-align: center;
+        font-size: 8vmin;
+        left: 50%;
+        top: 10%;
+      }
     .servmore-features1 {
-        top: 25%;
-        left: 20%;
-        height: 20vw;
-        width: 20vw;
+        top: 35%;
+        left: 30%;
+        height: 43vw;
+        width: 43vw;
       }
       .servmore-features2 {
-        top: 25%;
-        left: 40%;
-        height: 20vw;
-        width: 20vw;
+        top: 35%;
+        left: 70%;
+        height: 43vw;
+        width: 43vw;
       }
       .servmore-features3 {
-        top: 25%;
-        left: 60%;
-        height: 20vw;
-        width: 20vw;
+        top: 65%;
+        left: 30%;
+        height: 43vw;
+        width: 43vw;
       }
       .servmore-features4 {
-        top: 25%;
-        left: 80%;
-        height: 20vw;
-        width: 20vw;
+        top: 65%;
+        left: 70%;
+        height: 43vw;
+        width: 43vw;
+      }
+      .servbenefits-head {
+        width:100%;
+        text-align: center;
+      font-size: 8vmin;
+        left: 50%;
+        top: 10%;
       }
     .servbenefits1 {
-      top: 55%;
-      left: 30%;
-      height: 20vw;
-      width: 20vw;
+      top: 35%;
+      left: 20%;
+      height: 32vw;
+      width: 32vw;
     }
     .servbenefits2 {
-      top: 55%;
+      top: 35%;
       left: 50%;
-      height: 20vw;
-      width: 20vw;
+      height: 32vw;
+      width: 32vw;
     }
     .servbenefits3 {
-      top: 55%;
-      left: 70%;
-      height: 20vw;
-      width: 20vw;
+      top: 35%;
+      left: 80%;
+      height: 32vw;
+      width: 32vw;
     }
     .servbenefits4 {
-      top: 70%;
-      left: 40%;
-      height: 20vw;
-      width: 20vw;
+      top: 65%;
+      left: 30%;
+      height: 32vw;
+      width: 32vw;
     }
     .servbenefits5 {
-      top: 70%;
-      left: 60%;
-      height: 20vw;
-      width: 20vw;
+      top: 65%;
+      left: 70%;
+      height: 32vw;
+      width: 32vw;
     }
   }
 /* --------- client (end user extended) ---------------- */
@@ -1054,10 +1079,10 @@ a:hover {
   .clientbenefits-foot {
     position: absolute;
     text-decoration: underline;
-    font-size: 4vmin;
+    font-size: 3vmin;
     font-weight: 700;
     left: 50%;
-    top: 80%;
+    top: 85%;
     transform: translateX(-50%) translateY(-50%);
   }
   .clientbenefits1 {
@@ -1309,7 +1334,7 @@ a:hover {
   left: 10%;
   transform: translateX(-50%) translateY(-50%);
   width: 70vw;
-  opacity: 0.5;
+  opacity: 1;
   z-index: 1;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
@@ -1317,11 +1342,11 @@ a:hover {
 .imguser {
   position: absolute;
   transform-style: preserve-3d;
-  top: -20%;
+  top: -28%;
   left: 20%;
   transform: translateX(-50%) translateY(-50%);
   width: 70vw;
-  opacity: 0.5;
+  opacity: 1;
   z-index: 1;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
@@ -1340,11 +1365,15 @@ a:hover {
 .txtclient:hover {
   text-decoration: underline;
 }
-.txtclient:hover + .imgclient {
+.txtclient:hover ~ .imgclient {
   width: 75vw;
   opacity: 1;
   z-index: 99;
 }
+.txtclient:hover ~ .imguser {
+    opacity: 0.1;
+    transition: 0.5s;
+  }
 .txtuser {
   position: absolute;
   top: 50%;
@@ -1358,11 +1387,16 @@ a:hover {
 .txtuser:hover {
   text-decoration: underline;
 }
-.txtuser:hover + .imguser {
+.txtuser:hover ~ .imguser {
   width: 75vw;
   opacity: 1;
   z-index: 99;
 }
+.txtuser:hover ~ .imgclient {
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+
 .txtclient a:link {
     color: #fff;
     text-decoration: none;
