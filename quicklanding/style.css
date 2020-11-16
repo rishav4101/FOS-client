@@ -1415,6 +1415,9 @@ a:hover {
     color: #FFF;
     text-decoration: underline;
   }
+  .elem{
+    transform: perspective(1px) translateZ(0);
+  }
 @media screen and (max-width: 821px) {
   .elem {
     transform: none !important;

@@ -249,13 +249,11 @@
 	$doc.addEventListener('mousemove', function (e) {
 		var centroX = e.clientX - screenWidth,
 			centroY = screenHeight - (e.clientY + 13),
-			degX = centroX * 0.008,
-			degY = centroY * 0.008,
 			$elem
 
 		for (var i = 0; i < $elems.length; i++) {
    			$elem = $elems[i];
-			$elem.style[validPropertyPrefix] = otherProperty + 'rotateY('+ degX +'deg)  rotateX('+ degY +'deg)';
+			$elem.style[validPropertyPrefix] = otherProperty + 'translateY('+ centroY*0.03 +'px) translateX('+ centroX*0.03 +'px)';
            
 		};
 	});
